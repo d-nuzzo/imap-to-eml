@@ -13,7 +13,11 @@ Scarica le mail da un account IMAP in SSL e le memorizza su una cartella locale 
   -s HOSTNAME     IMAP server, esempio: imap.gmail.com
   -u USERNAME     IMAP username, esempio: mario.rossi@gmail.com
   -p PASSWORD     IMAP password
-  -d DESTINATION  Cartella locale dove salvare i file .eml
+  -d DESTINATION  Cartella locale dove salvare i file .eml, di default crea una sottocartella emails
 ```
+
+## Note:
+L'help del programma è volutamente in inglese.
+
 
   
