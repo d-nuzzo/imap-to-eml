@@ -2,22 +2,18 @@
 
 Scarica le mail da un account IMAP in SSL e le memorizza su una cartella locale in singoli files eml.
 
-## usage
+## Sintassi:
 
 `imap_to_eml.py [-h] [-v] -s HOSTNAME -u USERNAME [-p PASSWORD] [-d DESTINATION]`
 
-## description
-
-Dump a IMAP account into .eml files
-
-## arguments
+## Argomenti:
 ```
-optional arguments:
-  -h, --help      show this help message and exit
-  -v, --verbose   increase output verbosity
-  -s HOSTNAME     IMAP server, like: imap.gmail.com
-  -u USERNAME     IMAP username, like: mario.rossi@gmail.com
+  -h, --help      visualizza la guida sintetica ed esce
+  -v, --verbose   visualizza informazioni più dettagliate
+  -s HOSTNAME     IMAP server, esempio: imap.gmail.com
+  -u USERNAME     IMAP username, esempio: mario.rossi@gmail.com
   -p PASSWORD     IMAP password
-  -d DESTINATION  Local folder where to save .eml files
-  ```
+  -d DESTINATION  Cartella locale dove salvare i file .eml
+```
+
   
